@@ -17,7 +17,7 @@ First off, thanks for taking the time to contribute to this project 🥳
 ### Code Contribution
 
 1. Fork the repo on GitHub.
-2. Clone the forked repository.
+2. Clone the forked repository recursively, or make sur to execute `git submodule update --init --recursive` to clone all the dependencies.
 3. Create a new feature branch based on `main`.
 4. Make your changes.
 5. Ensure the code adheres to the existing style.
