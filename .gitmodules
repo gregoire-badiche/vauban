@@ -1,0 +1,3 @@
+[submodule "lib/vaubandb"]
+	path = lib/vaubandb
+	url = https://github.com/gregoire-badiche/vaubandb.git
