@@ -25,6 +25,8 @@ First off, thanks for taking the time to contribute to this project 🥳
 
 ## Coding Conventions
 
+### Syntax
+
 We primarily use C++ for this project.
 
 Follow modern C++ best practices.
@@ -32,6 +34,22 @@ Follow modern C++ best practices.
 Docstrings code comments for exposed functions are appreciated.
 
 Please respect the file tree, all informations about where to place each file can be found in each `README.md`.
+
+### Directory tree
+
+```text
+.
+├── docs            # Hardware and software docs
+│   ├── schematics
+│   └── specs
+├── include         # Project specific headers
+│   └── *           # Folder for each project header
+├── lib             # Global / external libraries
+│   └── *           # Folder for each library
+└── src             # Source code with no headers
+    ├── *           # Project specific libraries
+    └── vauban.cpp  # Entry point
+```
 
 ## Commit Messages
 
