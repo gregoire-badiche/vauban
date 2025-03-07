@@ -29,7 +29,6 @@ Integers are stored in little-endian byte order, i.e. the least significant byte
 | RANDOM       | IV ⟳                              | bytes[12] |
 | 0x00         | Has compression                   | byte      |
 | 1,048,576    | Encryption block size             | u32       |
-| DEFINED      | Start of the block stream (bytes) | u32       |
 | DEFINED      | Number of blocks                  | u32       |
 | 0x00000000   | End of clear header               | u32       |
 | RANDOM       | SHA-256 hash of header            | i32       |
