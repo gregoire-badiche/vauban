@@ -2,6 +2,8 @@
 
 A secure hardware password vault and authentication device for maximum password integrity
 
+![Display for Vauban](https://github.com/gregoire-badiche/vauban/blob/main/docs/images/VAUBAN.png "Affiche Vauban")
+
 ## What is Vauban?
 
 In today’s digital landscape, strong authentication is more critical than ever. Vauban is a hardware-based password vault and authentication device designed to keep your passwords safe from online servers and vulnerable computers. By combining multiple authentication factors, it ensures that only you can access your accounts and data. With its USB interface, Vauban can instantly enter authentication secrets for you on any machine, streamlining your login experience.
