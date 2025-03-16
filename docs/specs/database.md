@@ -84,6 +84,5 @@ The HMAC-protected block stream is terminated by an output block for an empty in
 
 | Data Example | Description                             | Data Type |
 | ------------ | --------------------------------------- | --------- |
-| RANDOM       | HMAC-SHA-256(i \|\| s \|\| M)           | u32       |
-| 0x000F4240   | Size (here, 1MB)                        | u32       |
+| RANDOM       | HMAC-SHA-256(i \|\| s \|\| M)           | bytes[32] |
 | DEFINED      | Content (Variant dictionnary, ChaCha20) | bytes[]   |
